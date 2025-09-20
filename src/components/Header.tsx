@@ -30,10 +30,10 @@ export function Header() {
           >
             Download
           </button>
-          <a href='/ecauto/driver-policy' className="text-muted-foreground hover:text-foreground transition-colors">
+          <a href='/driver-policy' className="text-muted-foreground hover:text-foreground transition-colors">
             Driver Privacy
           </a>
-          <a href='/ecauto/customer-policy' className="text-muted-foreground hover:text-foreground transition-colors">
+          <a href='/customer-policy' className="text-muted-foreground hover:text-foreground transition-colors">
             Customer Privacy
           </a>
           <button 
