@@ -2,6 +2,8 @@
 
 import { Car, Mail, Phone, MapPin, Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
 import { Button } from "./ui/button";
+import logo from '../../public/logo.png';
+import Image from "next/image";
 
 export function Footer() {
   const scrollToSection = (sectionId: string) => {
@@ -16,7 +18,7 @@ export function Footer() {
           {/* Company Info */}
           <div className="space-y-4">
             <div className="flex items-center gap-2">
-              <Car className="h-6 w-6 text-primary" />
+          <Image src={logo} alt="EC Auto Logo" width={40} height={40} />
               <span className="text-xl font-bold">EC Auto</span>
             </div>
             <p className="text-sm text-muted-foreground">
@@ -98,18 +100,18 @@ export function Footer() {
             <div className="space-y-3">
               <div className="flex items-center gap-3 text-sm">
                 <Mail className="h-4 w-4 text-muted-foreground" />
-                <span>support@ecauto.com</span>
+                <span>info@catchuhealthcare.com</span>
               </div>
               <div className="flex items-center gap-3 text-sm">
                 <Phone className="h-4 w-4 text-muted-foreground" />
-                <span>+1 (555) 123-4567</span>
+                <span>+91 77357 36629</span>
               </div>
               <div className="flex items-start gap-3 text-sm">
                 <MapPin className="h-4 w-4 text-muted-foreground mt-0.5" />
-                <span>
-                  123 Innovation Drive<br />
-                  Tech City, TC 12345<br />
-                  United States
+                <span className="lh-2">
+                  1ST & 2NDFLOOR 49,<br />
+                  MM NATURAL RESTAURANT Villankurichi,<br />
+                  Coimbatore, Tamil Nadu 641035 India
                 </span>
               </div>
             </div>

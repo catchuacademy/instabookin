@@ -20,133 +20,72 @@ export default function Privacy() {
                   EC Auto Driver App Privacy Policy
                 </CardTitle>
                 <CardDescription>
-                  Last updated: December 2024 | Effective Date: Upon App Launch
+                  Last updated: September 2025
                 </CardDescription>
               </CardHeader>
               <CardContent className="space-y-6">
-                <div className="prose prose-sm max-w-none">
-                  <h3>1. Information We Collect</h3>
-                  <h4>Personal Information:</h4>
-                  <ul>
-                    <li>Full name, email address, and phone number</li>
-                    <li>Driver's license and registration documents</li>
-                    <li>Vehicle information (make, model, year, license plate)</li>
-                    <li>Insurance documentation</li>
-                    <li>Tax identification information</li>
-                    <li>Bank account details for payments</li>
-                    <li>Background check results (where legally required)</li>
-                    <li>Profile photo and vehicle photos</li>
-                  </ul>
-                  
-                  <h4>Location Information:</h4>
-                  <ul>
-                    <li>Real-time location while online and during trips</li>
-                    <li>Location history and driving patterns</li>
-                    <li>Route information and navigation data</li>
-                  </ul>
-                  
-                  <h4>Driving and Earnings Data:</h4>
-                  <ul>
-                    <li>Trip details, duration, and distances</li>
-                    <li>Earnings, tips, and payment history</li>
-                    <li>Driving behavior and performance metrics</li>
-                    <li>Vehicle telematics (if enabled)</li>
-                    <li>Passenger ratings and feedback</li>
-                  </ul>
+                <div>
+                  <p>Your privacy matters to <strong>ECAUTO Mobility Private Limited</strong> (“Company”, “ECAUTO”, “we”, “our” or “us”).</p>
+    <p>This Privacy Policy explains how we collect, use, share, and protect your information when you register and operate as a <strong>Driver (Captain) on the ECAUTO Platform.</strong></p>
+    <p>By driving with ECAUTO, you agree to this Policy.</p>
 
-                  <h3>2. How We Use Your Information</h3>
-                  <ul>
-                    <li>Verify your identity and eligibility to drive</li>
-                    <li>Match you with nearby ride requests</li>
-                    <li>Process payments and maintain earnings records</li>
-                    <li>Provide navigation and route optimization</li>
-                    <li>Monitor service quality and safety</li>
-                    <li>Provide driver support and resolve issues</li>
-                    <li>Generate tax documents and comply with regulations</li>
-                    <li>Improve driver experience and app functionality</li>
-                    <li>Investigate safety incidents and policy violations</li>
-                    <li>Provide insurance and background check services</li>
-                  </ul>
+    <h2>1. Information We Collect</h2>
+    <p>We collect the following when you sign up and provide services:</p>
+    <ul>
+      <li><strong>Account & Profile Information:</strong> Name, phone, email, password, photo.</li>
+      <li><strong>Verification & KYC Data:</strong> Aadhaar, PAN, driving license, vehicle RC, insurance, permits, pollution certificate, bank details, and real-time selfies for ID verification.</li>
+      <li><strong>Trip & Transaction Details:</strong> Ride history, payments, incentives, earnings.</li>
+      <li><strong>Location Data:</strong> GPS while you are marked “On Duty”.</li>
+      <li><strong>Device Information:</strong> IP address, mobile model, OS version, app usage.</li>
+      <li><strong>Health Declarations:</strong> Vaccination status, symptoms (when required).</li>
+      <li><strong>Call & SMS Data:</strong> Call records and OTPs for verification.</li>
+      <li><strong>Support & Feedback:</strong> Messages, ratings, or complaints.</li>
+    </ul>
 
-                  <h3>3. Information Sharing</h3>
-                  <p>We share your information as follows:</p>
-                  <ul>
-                    <li><strong>With Passengers:</strong> Name, photo, vehicle info, and location for trip coordination</li>
-                    <li><strong>Verification Partners:</strong> Background check and identity verification services</li>
-                    <li><strong>Payment Processors:</strong> Bank and payment information for earnings processing</li>
-                    <li><strong>Insurance Providers:</strong> Trip and driving data for coverage purposes</li>
-                    <li><strong>Government Agencies:</strong> Tax information and regulatory compliance data</li>
-                    <li><strong>Legal Requirements:</strong> When required by law or to protect safety</li>
-                    <li><strong>Service Providers:</strong> Technology and support service providers</li>
-                  </ul>
+    <h2>2. How We Use Your Information</h2>
+    <ul>
+      <li>Verify your identity and eligibility to drive with ECAUTO.</li>
+      <li>Match you with Customers for rides/rentals.</li>
+      <li>Share limited details with Customers (name, photo, vehicle number, phone).</li>
+      <li>Process payments and transfer earnings.</li>
+      <li>Ensure safety through live tracking and SOS features.</li>
+      <li>Prevent fraud and enforce platform rules.</li>
+      <li>Provide customer and driver support.</li>
+      <li>Comply with legal and regulatory requirements.</li>
+    </ul>
 
-                  <h3>4. Driver-Specific Data Security</h3>
-                  <ul>
-                    <li>Enhanced security for sensitive driver documents</li>
-                    <li>Secure handling of financial and tax information</li>
-                    <li>Protected storage of background check results</li>
-                    <li>Encrypted transmission of location and trip data</li>
-                    <li>Regular security reviews of driver data access</li>
-                  </ul>
+    <h2>3. Sharing of Information</h2>
+    <p>Your data may be shared with:</p>
+    <ul>
+      <li><strong>Customers:</strong> For trip safety and completion (name, vehicle number, phone, tracking).</li>
+      <li><strong>Third-Party Service Providers:</strong> Background verification, payment settlement, hosting, analytics.</li>
+      <li><strong>Law Enforcement/Government:</strong> When required by law.</li>
+      <li><strong>Affiliates/Business Transfers:</strong> In case of mergers, acquisitions, or restructuring.</li>
+    </ul>
+    <p>We do not sell your data.</p>
 
-                  <h3>5. Your Rights as a Driver</h3>
-                  <ul>
-                    <li><strong>Access:</strong> View all data we have about you and your driving</li>
-                    <li><strong>Correction:</strong> Update your personal and vehicle information</li>
-                    <li><strong>Deletion:</strong> Request account deletion (subject to legal requirements)</li>
-                    <li><strong>Earnings Data:</strong> Export your earnings and trip history</li>
-                    <li><strong>Location Control:</strong> Manage location sharing when offline</li>
-                    <li><strong>Communication:</strong> Opt out of promotional communications</li>
-                  </ul>
+    <h2>4. Your Rights</h2>
+    <ul>
+      <li>You can update/correct your details via the app.</li>
+      <li>You can request account deletion (subject to settlement of pending dues).</li>
+      <li>We retain limited trip and transaction history for <strong>180 days after account closure</strong> for legal and safety reasons, after which it is deleted or anonymized.</li>
+    </ul>
 
-                  <h3>6. Data Retention for Drivers</h3>
-                  <ul>
-                    <li>Driver account data: Until account deletion or as required by law</li>
-                    <li>Trip and earnings data: 7 years for tax and regulatory compliance</li>
-                    <li>Background check results: As required by local regulations</li>
-                    <li>Vehicle and insurance documents: Duration of driving eligibility</li>
-                    <li>Safety incident reports: As required by law or insurance</li>
-                  </ul>
+    <h2>5. Security</h2>
+    <p>We use <strong>encryption, SSL, and secure servers</strong> to protect your data. Still, no system is completely secure — use the platform responsibly.</p>
 
-                  <h3>7. Driver Verification and Background Checks</h3>
-                  <p>We conduct background checks and identity verification as required by law. This may include:</p>
-                  <ul>
-                    <li>Criminal background checks</li>
-                    <li>Driving record verification</li>
-                    <li>Identity document verification</li>
-                    <li>Vehicle registration and insurance verification</li>
-                  </ul>
-                  <p>These checks are performed by third-party services and results are stored securely.</p>
+    <h2>6. Children’s Privacy</h2>
+    <p>You must be <strong>18 years or older</strong> and legally eligible to drive to use ECAUTO.</p>
 
-                  <h3>8. Earnings and Tax Information</h3>
-                  <ul>
-                    <li>We collect tax identification information for earnings reporting</li>
-                    <li>Earnings data is reported to tax authorities as required by law</li>
-                    <li>You can access your earnings history and tax documents through the app</li>
-                    <li>We may share earnings information with tax preparation services you authorize</li>
-                  </ul>
+    <h2>7. Grievance Officer</h2>
+    <div style={{ marginTop: '14px', marginBottom: '16px' }}>
+      <p><strong>Email:</strong> info@catchuhealthcare.com</p>
+      <p className="mt-2"><strong>Phone number:</strong> +91 77357 36629</p>
+    </div>
 
-                  <h3>9. Driver Safety and Monitoring</h3>
-                  <p>To ensure passenger safety and service quality, we may:</p>
-                  <ul>
-                    <li>Monitor driving patterns and behavior</li>
-                    <li>Review passenger feedback and ratings</li>
-                    <li>Investigate safety incidents or policy violations</li>
-                    <li>Use telematics data (if you consent)</li>
-                    <li>Conduct periodic re-verification of documents</li>
-                  </ul>
+    <h2>8. Policy Updates</h2>
+    <p>We may update this Policy periodically. Major changes will be notified via app or email.</p>
 
-                  <h3>10. International Drivers</h3>
-                  <p>If you drive in multiple countries, your data may be processed according to local laws in each jurisdiction. We ensure compliance with applicable privacy laws in all operating regions.</p>
-
-                  <h3>11. Contact Information</h3>
-                  <p>For driver privacy questions or to exercise your rights:</p>
-                  <ul>
-                    <li>Email: driver-privacy@ecauto.com</li>
-                    <li>Phone: +1-XXX-XXX-XXXX</li>
-                    <li>Driver Support Portal: Available in the app</li>
-                    <li>Address: [Company Address]</li>
-                  </ul>
                 </div>
               </CardContent>
             </Card>

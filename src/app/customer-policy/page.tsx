@@ -21,102 +21,90 @@ export default function Privacy() {
                   EC Auto Passenger App Privacy Policy
                 </CardTitle>
                 <CardDescription>
-                  Last updated: December 2024 | Effective Date: Upon App Launch
+                  Last updated: September 2025
                 </CardDescription>
               </CardHeader>
               <CardContent className="space-y-6">
-                <div className="prose prose-sm max-w-none">
-                  <h3>1. Information We Collect</h3>
-                  <h4>Personal Information:</h4>
-                  <ul>
-                    <li>Name, email address, and phone number for account creation</li>
-                    <li>Profile photo (optional)</li>
-                    <li>Payment information (processed securely through third-party providers)</li>
-                    <li>Government-issued ID verification (where required by law)</li>
-                  </ul>
-                  
-                  <h4>Location Information:</h4>
-                  <ul>
-                    <li>Pickup and drop-off locations for ride booking</li>
-                    <li>Real-time location during active trips</li>
-                    <li>Location history for completed trips</li>
-                  </ul>
-                  
-                  <h4>Usage Information:</h4>
-                  <ul>
-                    <li>App usage patterns and preferences</li>
-                    <li>Trip history and ratings</li>
-                    <li>Device information and identifiers</li>
-                    <li>Communication records with drivers and support</li>
-                  </ul>
-
-                  <h3>2. How We Use Your Information</h3>
-                  <ul>
-                    <li>Provide ride booking and transportation services</li>
-                    <li>Match you with nearby drivers</li>
-                    <li>Process payments and maintain transaction records</li>
-                    <li>Provide customer support and resolve disputes</li>
-                    <li>Improve app functionality and user experience</li>
-                    <li>Send important service notifications and updates</li>
-                    <li>Ensure safety and security of our platform</li>
-                    <li>Comply with legal obligations and prevent fraud</li>
-                  </ul>
-
-                  <h3>3. Information Sharing</h3>
-                  <p>We share your information only as necessary:</p>
-                  <ul>
-                    <li><strong>With Drivers:</strong> Name, photo, pickup location, and contact info for trip coordination</li>
-                    <li><strong>Service Providers:</strong> Payment processors, mapping services, and analytics providers</li>
-                    <li><strong>Legal Requirements:</strong> When required by law, court order, or government request</li>
-                    <li><strong>Safety:</strong> To protect safety, prevent fraud, or investigate violations</li>
-                    <li><strong>Business Transfers:</strong> In case of merger, acquisition, or sale of assets</li>
-                  </ul>
-                  <p><strong>We never sell your personal information to third parties for marketing purposes.</strong></p>
-
-                  <h3>4. Data Security</h3>
-                  <ul>
-                    <li>Industry-standard encryption for data transmission and storage</li>
-                    <li>Secure authentication and access controls</li>
-                    <li>Regular security audits and vulnerability assessments</li>
-                    <li>Employee access controls and privacy training</li>
-                    <li>Secure payment processing through PCI-compliant providers</li>
-                  </ul>
-
-                  <h3>5. Your Rights and Choices</h3>
-                  <ul>
-                    <li><strong>Access:</strong> View and download your personal data</li>
-                    <li><strong>Correction:</strong> Update or correct your information</li>
-                    <li><strong>Deletion:</strong> Request deletion of your account and data</li>
-                    <li><strong>Portability:</strong> Export your data in a standard format</li>
-                    <li><strong>Objection:</strong> Object to certain data processing activities</li>
-                    <li><strong>Location:</strong> Control location sharing through device settings</li>
-                  </ul>
-
-                  <h3>6. Data Retention</h3>
-                  <ul>
-                    <li>Account information: Until account deletion or required by law</li>
-                    <li>Trip data: 7 years for tax and legal compliance</li>
-                    <li>Payment records: As required by financial regulations</li>
-                    <li>Support communications: 3 years after resolution</li>
-                  </ul>
-
-                  <h3>7. Children's Privacy</h3>
-                  <p>EC Auto is not intended for users under 18 years of age. We do not knowingly collect personal information from children under 18. If we discover such information has been collected, we will delete it immediately.</p>
-
-                  <h3>8. International Data Transfers</h3>
-                  <p>Your data may be processed in countries outside your residence. We ensure appropriate safeguards are in place for international transfers, including standard contractual clauses and adequacy decisions.</p>
-
-                  <h3>9. Updates to This Policy</h3>
-                  <p>We may update this privacy policy periodically. We will notify you of significant changes through the app or email. Continued use of the service constitutes acceptance of the updated policy.</p>
-
-                  <h3>10. Contact Information</h3>
-                  <p>For privacy-related questions or to exercise your rights:</p>
-                  <ul>
-                    <li>Email: privacy@ecauto.com</li>
-                    <li>Phone: +1-XXX-XXX-XXXX</li>
-                    <li>Address: [Company Address]</li>
-                  </ul>
-                </div>
+                <div>
+        <header>
+            <h1>ECAUTO Privacy Policy - Customer</h1>
+            <p>Your privacy matters to <strong>ECAUTO Mobility Private Limited</strong> (“Company”, “ECAUTO”, “we”, “our” or “us”).</p>
+            <p>This Privacy Policy explains how we collect, use, share, and protect your information when you use the ECAUTO app, website, or services as a Customer.</p>
+            <p>By booking rides or rentals with ECAUTO, you agree to this Policy.</p>
+        </header>
+        
+        <section>
+            <h2>1. Information We Collect</h2>
+            <p>We may collect the following information when you use our services:</p>
+            <ul>
+                <li><strong>Account Information:</strong> Name, email, phone number, password, profile photo.</li>
+                <li><strong>Trip & Transaction Details:</strong> Pickup/drop addresses, ride history, payment details.</li>
+                <li><strong>Location Data:</strong> Live GPS data while booking and during rides.</li>
+                <li><strong>Device Information:</strong> IP address, device model, OS version, language, network data.</li>
+                <li><strong>Saved Information:</strong> Frequently used addresses, billing info, emergency contacts.</li>
+                <li><strong>Support & Feedback:</strong> Complaints, chat messages, ratings, and reviews.</li>
+                <li><strong>Cookies:</strong> For app performance and personalization (can be disabled in settings).</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>2. How We Use Your Information</h2>
+            <p>We use your information to:</p>
+            <ul>
+                <li>Book and complete your rides or rentals.</li>
+                <li>Share necessary details (name, phone, pickup location) with Drivers.</li>
+                <li>Improve safety (real-time tracking, SOS features).</li>
+                <li>Provide customer support.</li>
+                <li>Send notifications about rides, offers, and service updates.</li>
+                <li>Comply with legal requirements.</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>3. Sharing of Information</h2>
+            <p>Your information may be shared with:</p>
+            <ul>
+                <li><strong>Drivers:</strong> To complete your ride (name, phone, pickup/drop location).</li>
+                <li><strong>Third-Party Service Providers:</strong> For payments, hosting, fraud detection, analytics.</li>
+                <li><strong>Law Enforcement/Government:</strong> When required by law.</li>
+                <li><strong>Affiliates/Business Transfers:</strong> In case of mergers, acquisitions, or restructuring.</li>
+            </ul>
+            <p>We do not sell your personal data.</p>
+        </section>
+        
+        <section>
+            <h2>4. Your Rights</h2>
+            <ul>
+                <li>You can update or correct your information via the app.</li>
+                <li>You can request account deletion.</li>
+                <li>We retain limited ride and transaction history for <strong>180 days</strong> after closure for legal and safety reasons, after which it is deleted or anonymized.</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>5. Security</h2>
+            <p>We use industry-standard encryption, SSL, and firewalls to protect your data. However, no system is 100% secure.</p>
+        </section>
+        
+        <section>
+            <h2>6. Children's Privacy</h2>
+            <p>ECAUTO is only available for users <strong>18 years and above</strong>.</p>
+        </section>
+        
+        <section>
+            <h2>7. Grievance Officer</h2>
+            <p>For questions or complaints:</p>
+                <div style={{ marginTop: '14px', marginBottom: '16px' }}>
+      <p><strong>Email:</strong> info@catchuhealthcare.com</p>
+      <p className="mt-2"><strong>Phone number:</strong> +91 77357 36629</p>
+    </div>
+        </section>
+        
+        <section>
+            <h2>8. Policy Updates</h2>
+            <p>We may update this Policy from time to time. You will be notified of major changes via app or email.</p>
+        </section>
+    </div>
               </CardContent>
             </Card>
           </TabsContent>

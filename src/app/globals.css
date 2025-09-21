@@ -54,7 +54,7 @@
   --popover-foreground: oklch(0.15 0 0);
 
   /* ✅ Primary - Blue theme */
-  --primary: oklch(0.55 0.22 265);             /* strong blue */
+  --primary: oklch(64.675% 0.13269 94.738);             /* strong blue */
   --primary-foreground: oklch(0.985 0 0);      /* white */
 
   --secondary: oklch(0.92 0.05 265);           /* lighter blue */
