@@ -85,26 +85,7 @@ export default function Privacy() {
         <p>•	IP address</p>
         <p>•	Device model</p>
           
-        {/* <h2>2.3 Location Data Collected by Ride EC – Earn on Wheels</h2>
-        <h2 className="text-1xl font-bold text-foreground">The Driver App collects precise GPS location only when:</h2>
-         <p>•You are online</p>
-         <p>•You are available for rides</p>
-         <p>•The app is open and active</p>
-         <h2 className="text-1xl font-bold text-foreground"> Location data is used for:</h2>
-         <p>•Matching drivers with customers</p>
-         <p>•Navigating to customer locations</p>
-         <p>•Real-time trip monitoring</p>
-         <p>•Showing your live position to customers for safety</p>
-         <h2 className="text-1xl font-bold text-foreground">We do not collect location:</h2>
-          <p>In the background</p>
-         <p>•When the app is closed</p>
-          <p>•When the app is minimised</p>
-         <p>•When you switch to another app</p>
-         <h2>2.4 Information from Third Party Services</h2>
-         <h2 className="text-1xl font-bold text-foreground">The Driver App uses third-party services to support essential functions:</h2>
-          <p>•Google Maps for navigation and location accuracy</p>
-         <p>•Firebase for login, authentication, and notifications</p> */}
-         {/* <p>No analytics tools, cloud calling services, or payment gateway integrations are used in the Driver App.</p>     */}
+      
     </ul>
 
     <h2>3. Location Information</h2>
@@ -117,6 +98,10 @@ export default function Privacy() {
          <p>  •	When the app is open or minimised</p>
          <p> •	When running in the background but you are on duty</p>
           <p>Why We Collect Background Location </p>
+          <h2 className="text-1xl font-bold text-foreground">Location Data section:</h2>
+          <p>EC Auto collects location data in the background when drivers are marked "On Duty".</p>
+          <p>This background location data is required for live driver tracking, route updates,</p>
+          <p>ride allocation, and safety monitoring, even when the app is closed or not in use.</p>
         <h2 className="text-1xl font-bold text-foreground"> Background location helps us:</h2>
         <p>•	Match drivers with nearby customers</p>
         <p>•	Navigate to pickup and drop points</p>
