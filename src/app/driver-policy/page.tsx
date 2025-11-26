@@ -25,49 +25,67 @@ export default function Privacy() {
               </CardHeader>
               <CardContent className="space-y-6">
                 <div>
-                           
-            <h2> 1.Purpose and Scope of Ride EC – Earn on Wheels</h2>
-            <p>This Privacy Policy explains how the Ride EC – Earn on Wheels driver application (the "Driver App" of EC Auto) collects, uses, processes, and protects information provided by drivers who register and operate on the platform. By using the Driver App, you agree to the practices described in this Policy.
+
+                  <header>
+            <h4 className="font-bold text-foreground">Ride EC – Earn on Wheels</h4>
+            <p>Combined Privacy Policy and Driver Terms</p>
+          <p>Last updated: 26/11/2025</p>
+             <h4 className="font-bold text-foreground">Provided by kcatchu</h4>
+
+        </header>
+
+              <h2>1.Privacy Policy for Ride EC – Earn on Wheels</h2>
+            <h2>1.1 Purpose and Scope</h2>
+            <p> Ride EC – Earn on Wheels (“Driver App”) is a platform that allows commercial auto drivers to accept ride requests from customers using EC Auto.
             </p>
           <ul>
-            <h2 className="text-1xl font-bold text-foreground">This Policy applies to:</h2>
-                      <p>•Drivers registered on the Ride EC – Earn on Wheels app</p>
-                      <p>•All features, services, and interactions within the EC Auto Driver platform</p>
+                       <p>This Privacy Policy explains how we collect, use, store, and protect your information.</p>
+                      <p>By using the Driver App, you agree to this Policy.</p>
           </ul>
 
-    <h2>2. Information Collected by Ride EC – Earn on Wheels</h2>
-    <h2> 2.1 Information You Provide to EC Auto Driver App</h2>
+    <h2>2. Information We Collect</h2>
+    <h2>2.1 Information You Provide</h2>
 
     <ul>
-        <h2 className="text-1xl font-bold text-foreground">To register and provide services as a driver, you may provide the following:</h2>
+        <h2 className="text-1xl font-bold text-foreground">To create and verify your driver account, you provide:</h2>
         <p>•Mobile number</p>
         <p>•Driving licence</p>
         <p>•Vehicle registration certificate</p>
-        <p>•Vehicle insurance</p>
-        <p>These details are used to create and verify your driver account and ensure compliance with transport regulations.</p>
-        <h2 className="text-1xl font-bold text-foreground">We do not collect:</h2>
-        <p>•Aadhaar</p>
-        <p>•PAN</p>
-        <p>•Bank account or UPI details</p>
-        <p>•Selfie verification</p>
+        <p>•	Commercial Auto Permit</p>
+        <p>•	Insurance Certificate</p>
+        <p>•	Fitness Certificate (FC)</p>
+        <p>Only yellow-board commercial autos are allowed on the Ride EC platform.</p>
+        <p>Document Compliance Requirements</p>
+         <h2 className="text-1xl font-bold text-foreground">To operate on the platform, drivers must maintain:</h2>
+        <p>•	A valid Driving Licence</p>
+        <p>•	A valid RC</p>
+        <p>•	A valid FC</p>
+        <p>•	A valid commercial permit</p>
+        <p>•	A valid insurance certificate</p>
+       <p> Deactivation for Non-Compliance</p>
+       <h2 className="text-1xl font-bold text-foreground">We may deactivate your driver account if:</h2>
+       <p>•	Any required document expires</p>
+       <p>•	Documents are invalid or fake</p>
+       <p>•	You operate a white-board (private) vehicle</p>
+       <p>•	You fail to update renewed documents</p>
         <h2>2.2 Information Collected Automatically  </h2>
-        <h2 className="text-1xl font-bold text-foreground">The Driver App collects operational data necessary to provide services, such as:</h2>
-        <p>•Trip history</p>
-        <p>•Pickup and drop locations</p>
-        <p>•Earnings information</p>
-        <p>•Ride timings</p>
-        <p>•Ride acceptance and cancellation patterns</p>
-        <p>This information supports trip accuracy, safety, compliance, and customer experience.</p>
+        <h2 className="text-1xl font-bold text-foreground">We collect certain operational information to support trip delivery:</h2>
+        <p>• Trip history</p>
+        <p>• Pickup and drop locations</p>
+        <p>• Earnings information</p>
+        <p>• Ride timings</p>
+        <p>•	Earnings and payment summaries</p>
+        <p>• Ride acceptance and cancellation patterns</p>
          <h2 className="text-1xl font-bold text-foreground">We do not collect:</h2>
-        <p>•Device model</p>
-        <p>•Operating system details</p>
-        <p>•Crash logs</p>
-        <p>•IP address</p>
-        <p>•OTP auto-read SMS</p>
-        <p>•Call logs</p>
-        <p>•Personal messages</p>
+        <p>•	Aadhaar or PAN</p>
+        <p>•	Bank or UPI details</p>
+        <p>•	Selfie or biometrics</p>
+        <p>•	Call logs</p>
+        <p>•	Personal messages</p>
+        <p>•	IP address</p>
+        <p>•	Device model</p>
           
-        <h2>2.3 Location Data Collected by Ride EC – Earn on Wheels</h2>
+        {/* <h2>2.3 Location Data Collected by Ride EC – Earn on Wheels</h2>
         <h2 className="text-1xl font-bold text-foreground">The Driver App collects precise GPS location only when:</h2>
          <p>•You are online</p>
          <p>•You are available for rides</p>
@@ -85,80 +103,114 @@ export default function Privacy() {
          <h2>2.4 Information from Third Party Services</h2>
          <h2 className="text-1xl font-bold text-foreground">The Driver App uses third-party services to support essential functions:</h2>
           <p>•Google Maps for navigation and location accuracy</p>
-         <p>•Firebase for login, authentication, and notifications</p>
-         <p>No analytics tools, cloud calling services, or payment gateway integrations are used in the Driver App.</p>    
+         <p>•Firebase for login, authentication, and notifications</p> */}
+         {/* <p>No analytics tools, cloud calling services, or payment gateway integrations are used in the Driver App.</p>     */}
     </ul>
 
-    <h2>3. How Ride EC – Earn on Wheels Uses Driver Information</h2>
+    <h2>3. Location Information</h2>
+    <h2>3.1 Foreground and Background Location</h2>
     <ul>
-       <h2 className="text-1xl font-bold text-foreground">Your information may be used for the following purposes:</h2>
-       <p>•Driver onboarding and account management</p>
-         <p>•Document verification</p>
-          <p>•Assigning trips and tracking trip progress</p>
-         <p>•Providing navigation support</p>
-         <p>•Sharing driver location with customers</p>
-          <p>•Processing and showing driver earnings</p>
-         <p>•Sending important updates and notifications</p>
-          <p>•Ensuring safety and regulatory compliance</p>
-            <p>•Improving app performance and driver experience</p>
-            <p>We do not sell or share your information for marketing purposes.</p>
+       <h2 className="text-1xl font-bold text-foreground">The Driver App collects precise GPS location when you are online, including:</h2>
+       <p>•	When available for rides</p>
+         <p>•	When a ride is assigned</p>
+          <p>•	When a trip is in progress</p>
+         <p>  •	When the app is open or minimised</p>
+         <p> •	When running in the background but you are on duty</p>
+          <p>Why We Collect Background Location </p>
+        <h2 className="text-1xl font-bold text-foreground"> Background location helps us:</h2>
+        <p>•	Match drivers with nearby customers</p>
+        <p>•	Navigate to pickup and drop points</p>
+        <p>•	Provide customers with real-time tracking</p>
+        <p>•	Ensure accuracy and safety of trips</p>
+        <p>•	Maintain route history for disputes</p>
+        <p>•	Improve safety for both drivers and passengers</p>
+        <p>•	Comply with transport regulations</p>
+       <h2 className="text-1xl font-bold text-foreground">  What We Do NOT Use Location For:</h2>
+       <p>•	Marketing</p>
+        <p>•	Selling or sharing data</p>
+         <p>•	Analytics</p>
+          <p>•	Social profiling</p>
+           <p>How You Can Stop Location Sharing</p>
+           <h2 className="text-1xl font-bold text-foreground">You may stop sharing location by:</h2>
+           <p>•	Going offline</p>
+            <p>•	Closing the Driver App</p>
+             <p>•	Disabling background location permission</p>
+             <p>(Note: ride services will not function if disabled)</p>
     </ul>
     
 
-    <h2> 4. Sharing of Driver Information by EC Auto</h2>
-    <h2>4.1 Sharing with Customers</h2>
+    <h2>4. Third-Party Services We Use</h2>
+    
     <ul>
-        <h2 className="text-1xl font-bold text-foreground">To complete rides safely and transparently, customers may see the following:</h2>
-       <p>•Driver name</p>
-         <p>•Driver mobile number</p>
-          <p>•Vehicle details</p>
-         <p>Live location during the trip</p>
-         <h2>4.2 Sharing with Service Providers</h2>
-        <h2 className="text-1xl font-bold text-foreground">  We may share limited information with authorised partners who help us operate the platform, including:</h2>
-         <p>•Document verification partners</p>
-         <p>•Map and navigation providers</p>
-          <p>•Cloud and notification service providers (Firebase)</p>
-         <p>These partners are required to maintain strict data protection practices.</p>
-         <h2>4.3 Sharing for Safety and Support</h2>
-         <p>In case of incidents, disputes, or support requests, we may share relevant trip information with authorised safety or support teams.</p>
-         <h2>4.4 Sharing with Legal Authorities</h2>
-          <p>• Information is shared only:</p>
-         <p>• When required by law</p>
-          <p>• When responding to valid legal orders</p>
-         <p>When necessary to ensure the safety of drivers or passengers</p>
+        <h2 className="text-1xl font-bold text-foreground">The Driver App integrates:</h2>
+       <p>•	Google Maps – for navigation and accurate routing</p>
+         <p>•	Firebase – for login verification and push notifications</p>
+          <p>We do not use marketing or analytics tools.</p>
+          
 
     </ul>
 
-    <h2>5. Storage and Protection of Driver Information</h2>
-    <p>We securely store all driver information on protected servers. We use industry-standard security measures to prevent unauthorised access, misuse, loss, or alteration of your data.</p>
-    <p>While no system can provide absolute security, we take all reasonable and appropriate measures to safeguard your information.</p>
+    <h2>5. How We Use Driver Information</h2>
+     <h2 className="text-1xl font-bold text-foreground">Your data is used to:</h2>
+    <p>•	Create and verify your account</p>
+    <p>•	Validate driving and vehicle documents</p>
+    <p>•	Assign ride requests</p>
+    <p>•	Support navigation and routing</p>
+    <p>•	Show your live location to customers</p>
+    <p>•	Calculate earnings</p>
+    <p>•	Maintain trip safety</p>
+    <p>•	Prevent fraud and misuse</p>
+    <p>•	Resolve ride-related complaints</p>
+    <p>We do not sell your information to anyone.</p>
 
-    <h2>6. Your Rights and Choices as an EC Auto Driver</h2>
-    <h2 className="text-1xl font-bold text-foreground">You may:</h2>
-         <p>• View and update your driver account details</p>
-         <p>• Go offline at any time to stop sharing location</p>
-         <p>• Contact support for corrections or clarifications</p>
-         <p>• Request deletion of your driver account</p>
-         <p>Decline permissions (though some features may not work without them)</p>
+    <h2>6. Sharing of Driver Information</h2>
+    <h2>6.1 Shared With Customers</h2>
+    <h2 className="text-1xl font-bold text-foreground">To complete a ride, customers may see:</h2>
+         <p>•	Driver name</p>
+         <p>•	Phone number</p>
+         <p>•	Vehicle number and details</p>
+         <p>•	Live location</p>
+         <p>•	Trip status</p>
+         <h2>6.2 Shared With Service Providers</h2>
+        <h2 className="text-1xl font-bold text-foreground"> We share limited data with:</h2>
+        <p>•	Document verification partners</p>
+        <p>•	Map and navigation providers</p>
+        <p>•	Notification service providers</p>
+        <h2>6.3 Legal and Safety Disclosures</h2>
+       <h2 className="text-1xl font-bold text-foreground">We may share information when required to:</h2>
+      <p>•	Respond to lawful authority requests</p>
+      <p>•	Investigate safety or fraud incidents</p>
+      <p>•	Support dispute resolution</p>
 
-    <h2> 7. Data Retention by Ride EC – Earn on Wheels</h2>
-    <p>Driver information is retained for one year after account deletion or inactivity.</p>
-    <h2 className="text-1xl font-bold text-foreground">Some information may be stored longer if required for:</h2>
-     <p>• Legal compliance</p>
-         <p>• Safety and incident review</p>
-          <p>• Verification or auditing</p>
-         <p>• After the retention period, your data is securely deleted or anonymised.</p>
-     
+    <h2>7. Data Storage and Protection</h2>
+    <p>Your information is stored securely on protected servers.</p>
+    <p>We use industry-standard measures to protect against unauthorized access, misuse, or loss.</p>
+    
+    <h2>8. Data Retention</h2>
+    <p>We retain driver data for 1 year after account deletion or inactivity.</p>
+    <h2 className="text-1xl font-bold text-foreground">Some data may be kept longer for:</h2>
+    <p>•	Legal compliance</p>
+    <p>•	Dispute resolution</p>
+    <p>•	Safety records</p>
 
-    <h2>8. Drivers Under 18</h2>
-    <p>The Driver App is only for individuals aged 18 and above with a valid driving licence. We do not knowingly register or collect information from minors.</p>
 
-     <h2>9. Changes to This Privacy Policy</h2>
-     <p>We may update this Privacy Policy periodically to reflect changes in law or service updates. The "Last Updated" date will change accordingly. In some cases, drivers may be notified within the app.</p>
+     <h2>9. Your Choices and Rights</h2>
+     <h2 className="text-1xl font-bold text-foreground">Drivers may:</h2>
+     <p>•	Update account details</p>
+     <p>•	View trip and earnings history</p>
+     <p>•	Request account deletion</p>
+     <p>•	Withdraw permissions (may disable app functions)</p>
 
-     <h2>10. Contact Us and Grievance Redressal</h2>
-     <p>For questions, complaints, or concerns related to this Privacy Policy, you may contact:</p>
-     <h2 className="text-1xl font-bold text-foreground">Grievance Officer:</h2>
+     <h2>10. Drivers Under 18</h2>
+     <p>The Driver App is only for drivers aged 18 and above with a valid commercial driving licence.</p>
+
+     <h2>11. Changes to This Policy</h2>
+     <p>This Privacy Policy may be updated.</p>
+     <p>The updated version will always be available on our website or in the app.</p>
+ 
+     <h2>12. Contact & Grievance Redressal</h2>
+          <h2 className="text-1xl font-bold text-foreground">Grievance Officer:</h2>
+
        <p>ArunKanth</p>
          <p>Email: info@catchuhealthcare.com</p>
            <p>Phone: 7735736629</p>

@@ -29,7 +29,7 @@ export default function Privacy() {
         <header>
             <h4 className="font-bold text-foreground">EC Auto – Instant Ride</h4>
             <p>Combined Privacy Policy and Customer Terms</p>
-          <p>Last updated: 25/11/2025</p>
+          <p>Last updated: 26/11/2025</p>
              <h4 className="font-bold text-foreground">Provided by kcatchu</h4>
 
         </header>
