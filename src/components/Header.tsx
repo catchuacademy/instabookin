@@ -34,6 +34,9 @@ export function Header() {
           <a href='/driver-policy' className="text-muted-foreground hover:text-foreground transition-colors">
             Driver Privacy
           </a>
+          <a href='/driver-rules' className="text-muted-foreground hover:text-foreground transition-colors">
+            Driver Rules
+          </a>
           <a href='/customer-policy' className="text-muted-foreground hover:text-foreground transition-colors">
             Customer Privacy
           </a>
